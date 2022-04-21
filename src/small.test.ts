@@ -29,4 +29,28 @@ describe("Desert Island", () => {
       ])
     ).toBe(12);
   });
+  it("Calculates the correct perimeter of a map with two islands", () => {
+    expect(
+      getPerimeter([[
+        [0, 0, 0, 0, 0],
+        [0, 1, 1, 0, 0],
+        [0, 1, 1, 1, 0],
+        [0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0],
+      ], [
+        [0, 0, 0, 0, 0],
+        [0, 1, 1, 0, 0],
+        [0, 1, 1, 1, 0],
+        [0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0],
+      ]])
+    ).toBe(24);
+  });
+ 
 });
+
+
+
+
+
+

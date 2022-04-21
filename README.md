@@ -1,3 +1,5 @@
+_The submission for this challenge is in small.ts (537 bytes)_
+
 **Instructions**
 
 This is a map of a desert island, where each '1' represents a cell of dry land, and each '0' represents a cell of ocean. The task is to determine the total perimeter of the island (i.e. total length of cell edges touching water), where each cell has edges of length 1. For example, an isolated land cell without any neighbouring land cells would have a total perimeter of 4 - although the provided map doesn't actually contain any cases of this.
